@@ -1,0 +1,12 @@
+div{
+    font-size:40px;
+  }
+  h1 {
+    /*3em是相对于父元素的大小布局的，默认情况下是16px,你也可以尝试修改div的font-size值来达到调整h1的font-size*/
+    font-size: .5em;
+  }
+  p{
+    /* 设置了字的颜色，你可以尝试改成yellow */
+    font-size:.8em;
+    color: red;
+  }
