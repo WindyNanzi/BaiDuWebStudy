@@ -1,2 +1,1 @@
-# BaiDuWebStudy-1
-theFirstDayStudy
+# BaiDuWebStudy
