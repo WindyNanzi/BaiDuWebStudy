@@ -1,0 +1,27 @@
+header h1{
+	text-align: center;
+}
+main{
+	margin:0 auto;
+	padding: 1em;
+}
+address{
+	overflow: auto;
+}
+address p span{
+	margin-right: 1em;
+}
+/*不知道采用浮动布局算不算是一个比较好的方式*/
+img#myphoto{
+	float:right;
+}
+.WhenAndW{
+	overflow: auto;
+	margin-bottom: 0.5em;
+}
+.WhenAndW strong{
+	float:left;
+}
+.WhenAndW span{
+	float:right;
+}
