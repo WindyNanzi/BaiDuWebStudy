@@ -21,7 +21,7 @@ address #myphoto{
 	width: 15em;
 	border-radius: 0.5em;
 	/*利用css设置背景图片代替figure标签中的img标签*/
-	background-image: url("../../images/Bojeck.JPG");
+	background-image: url(../../images/Bojeck.JPG);
 	background-size: cover;
 }
 header h1{
