@@ -24,7 +24,7 @@ address{
 	width: 15em;
 	border-radius: 50%;
 	/*利用css设置背景图片代替figure标签中的img标签*/
-	background-image: url("../../images/Bojeck.jpg");
+	background-image: url(../../images/Bojeck.JPG);
 	background-size: cover;
 }
 header{
