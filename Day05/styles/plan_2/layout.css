@@ -1,0 +1,44 @@
+header h1{
+	text-align: center;
+}
+main{
+	margin:0 auto;
+	/*清除浮动，配合子元素的padding与margin实现多列等高布局*/
+	overflow: hidden;
+}
+.header{
+	float:left;
+	width:25%;
+	/*可以实现多列等高布局*/
+	padding-bottom: 100%;
+	margin-bottom: -100%;
+}
+.content{
+	box-sizing: border-box;
+	padding: 1em;
+	float: right;
+	width:75%;
+}
+address{
+	overflow: hidden;
+}
+address p {
+	text-indent: 2em;
+}
+address p span{
+	margin-right: 1em;
+}
+/*不知道采用浮动布局算不算是一个比较好的方式*/
+#myphoto{
+	margin: 1.5em auto;
+}
+.WhenAndW{
+	overflow: auto;
+	margin-bottom: 0.5em;
+}
+.WhenAndW strong{
+	float:left;
+}
+.WhenAndW span{
+	float:right;
+}

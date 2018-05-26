@@ -1,0 +1,39 @@
+html{
+	/*利用em属性做到响应式布局*/
+	font-size: 100%;
+	font-family: Microsoft Yahei;
+}
+body{
+	font-size: 1em;
+	width:100%;
+}
+main{
+	width:80%;
+	border-style: solid;
+	border-width: 0.0625em;
+	border-radius: 0.5em;
+}
+address{
+  font-style:normal;
+}
+address #myphoto{
+	height:10em;
+	width: 15em;
+	border-radius: 0.5em;
+	/*利用css设置背景图片代替figure标签中的img标签*/
+	background-image: url("../../images/Bojeck.jpg");
+	background-size: cover;
+}
+header h1{
+	font-size: 1.5625em;
+	letter-spacing: 0.125em
+}
+.fontSize{
+	font-size: 0.9375em;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-shadow: 0 0 0.0625em #0CA4D6;
+}

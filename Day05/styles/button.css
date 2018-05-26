@@ -1,0 +1,18 @@
+#button{
+	width: 10em;
+	height: 3em;
+	border-radius: 0.4em;
+	font-weight: bold;
+}
+#button:hover{
+	cursor: pointer;
+}
+#button{
+	background-color: #EA2000;
+	color: #fff;
+}
+#button{
+	text-align: center;
+	line-height: 3em;
+	margin:0 auto;
+}

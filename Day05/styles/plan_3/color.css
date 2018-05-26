@@ -1,0 +1,18 @@
+main{
+	border-color: #eee;
+	/*不得不说一句配色真的是一项艺术*/
+	color: #787878;
+}
+.WhenAndW span{
+	color: #93A1A1;
+}
+.header{
+	background-color: RGBA(24, 161, 95,0.4);
+}
+
+strong,h1{
+	color: #434343;
+}
+h3{
+	color: #e83015;
+}
